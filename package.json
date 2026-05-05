@@ -10,7 +10,7 @@
     "compromise": "^14.10.1"
   },
   "devDependencies": {
-    "@types/chrome": "^0.0.263",
+    "@types/chrome": "^0.1.40",
     "typescript": "^5.2.2",
     "vite": "^8.0.10"
   }
