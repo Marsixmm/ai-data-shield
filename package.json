@@ -1,0 +1,17 @@
+{
+  "name": "ai-data-shield",
+  "version": "1.5.0",
+  "description": "Enterprise local redaction layer for safe AI use.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "compromise": "^14.10.1"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.263",
+    "typescript": "^5.2.2",
+    "vite": "^8.0.10"
+  }
+}
