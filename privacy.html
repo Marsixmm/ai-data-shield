@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy – AI Data Shield</title>
+<style>
+  body { font-family: 'Segoe UI', Arial, sans-serif; max-width: 800px; margin: 40px auto; padding: 0 20px; color: #333; line-height: 1.7; }
+  h1 { color: #0a192f; border-bottom: 3px solid #d4af37; padding-bottom: 12px; }
+  h2 { color: #0a192f; margin-top: 36px; }
+  .badge { display: inline-block; background: #0a192f; color: #d4af37; padding: 4px 12px; border-radius: 4px; font-size: 13px; font-weight: bold; margin-bottom: 20px; }
+  .highlight { background: #f0f7f0; border-left: 4px solid #28c840; padding: 12px 16px; border-radius: 0 6px 6px 0; margin: 16px 0; }
+  footer { margin-top: 60px; padding-top: 20px; border-top: 1px solid #ddd; font-size: 13px; color: #888; }
+</style>
+</head>
+<body>
+
+<h1>Privacy Policy</h1>
+<span class="badge">AI Data Shield — Chrome Extension</span>
+
+<p><strong>Effective Date:</strong> June 8, 2026<br>
+<strong>Last Updated:</strong> June 8, 2026</p>
+
+<div class="highlight">
+  <strong>Summary:</strong> AI Data Shield processes all data 100% locally on your device. We do not collect, store, transmit, or share any personal information. Ever.
+</div>
+
+<h2>1. Who We Are</h2>
+<p>AI Data Shield is a Chrome browser extension developed to protect sensitive personal information from being accidentally submitted to AI platforms such as ChatGPT, Claude, Gemini, and Microsoft Copilot.</p>
+
+<h2>2. Data We Do NOT Collect</h2>
+<p>We do not collect, transmit, or store any of the following:</p>
+<ul>
+  <li>Personal identifiable information (names, SSNs, emails, phone numbers, etc.)</li>
+  <li>The content of your messages or documents</li>
+  <li>Browsing history or activity</li>
+  <li>Financial or medical information</li>
+  <li>Any data from your device</li>
+</ul>
+
+<h2>3. How the Extension Works</h2>
+<p>All processing happens exclusively on your local device:</p>
+<ul>
+  <li>The extension scans text you are about to send to an AI platform</li>
+  <li>Sensitive data patterns are detected using locally-run pattern matching</li>
+  <li>Detected data is replaced with anonymous tokens before transmission</li>
+  <li>A local audit log is stored in your browser's local storage only</li>
+  <li>No data is ever sent to our servers — because we have none</li>
+</ul>
+
+<h2>4. Permissions Used</h2>
+<ul>
+  <li><strong>activeTab:</strong> To scan and redact text in the active browser tab on supported AI platforms only</li>
+  <li><strong>storage:</strong> To save your settings (Strict Mode, Stealth Mode) and a local audit log on your device only</li>
+  <li><strong>clipboardWrite:</strong> To copy redacted (safe) text to your clipboard when you use the Shield panel</li>
+</ul>
+<p>These permissions are used solely for the extension's core function. No data leaves your device.</p>
+
+<h2>5. Local Storage</h2>
+<p>The extension uses Chrome's <code>chrome.storage.local</code> to store:</p>
+<ul>
+  <li>Your preference settings (Strict Mode on/off, Stealth Mode on/off)</li>
+  <li>A rolling audit log of up to 100 recent redaction events (site name, timestamp, types of data detected — never the actual sensitive data)</li>
+</ul>
+<p>This data lives entirely on your device and can be cleared at any time using the "Clear Active Session Vault" button in the extension.</p>
+
+<h2>6. Third-Party Services</h2>
+<p>AI Data Shield does not integrate with, communicate with, or share data with any third-party services, analytics platforms, or advertising networks.</p>
+
+<h2>7. Children's Privacy</h2>
+<p>This extension is not directed at children under 13. We do not knowingly collect information from children.</p>
+
+<h2>8. Changes to This Policy</h2>
+<p>If we update this privacy policy, we will update the "Last Updated" date above. Continued use of the extension after changes constitutes acceptance of the updated policy.</p>
+
+<h2>9. Contact</h2>
+<p>If you have questions about this privacy policy, please contact us at:<br>
+<strong>Email:</strong> support@aidatashield.com<br>
+<strong>Extension:</strong> AI Data Shield on the Chrome Web Store</p>
+
+<footer>
+  &copy; 2026 AI Data Shield. All rights reserved. This extension processes all data locally and never transmits personal information.
+</footer>
+
+</body>
+</html>
