@@ -1,0 +1,1 @@
+async function e(){try{let e=await chrome.storage.local.get([`strictMode`,`stealthMode`]);return{strictMode:e.strictMode??!0,stealthMode:e.stealthMode??!1}}catch{return{strictMode:!0,stealthMode:!1}}}async function t(e){try{await chrome.storage.local.set(e)}catch{}}export{t as n,e as t};
