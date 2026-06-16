@@ -3,7 +3,7 @@
   "name": "AI Data Shield Enterprise",
   "version": "1.5",
   "description": "Local redaction layer for safe AI use in law firms and business.",
-  "permissions": ["storage", "activeTab", "clipboardWrite"],
+  "permissions": ["storage"],
   "host_permissions": [
     "https://chatgpt.com/*",
     "https://chat.openai.com/*",
