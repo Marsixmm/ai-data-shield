@@ -4,7 +4,9 @@
   "description": "Enterprise local redaction layer for safe AI use.",
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
+    "build": "vite build",
+    "postbuild": "node scripts/postbuild.js",
+    "package": "node scripts/package.js"
   },
   "dependencies": {
     "compromise": "^14.10.1"
@@ -12,6 +14,7 @@
   "devDependencies": {
     "@types/chrome": "^0.0.263",
     "typescript": "^5.2.2",
-    "vite": "^8.0.10"
+    "vite": "^8.0.10",
+    "sharp": "^0.32.0"
   }
 }
